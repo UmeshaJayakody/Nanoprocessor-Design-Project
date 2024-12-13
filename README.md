@@ -26,10 +26,7 @@ RCA.
 - 3-bit Program Counter (PC) - Program Counter is used to keep track with the next instruction to be
 executed. This was built by using three D-flipflops and it can be reset to 0 when required.
 - Multiplexers – Here we have used a set of k-way b-bit multiplexers to enable the components in the
-microprocessor. The types of multiplexers used,
-- 01. 2-way 3-bit multiplexer
-- 02. 2-way 4-bit multiplexer
-- 03. 8-way 4-bit multiplexer
+microprocessor.
 - Register bank – There are eight registers in the register bank and each one can store 4-bit value at a
 time. 3-to-8 Decoder in the register bank select which register to be enabled using the “register
 enabled signal”.
@@ -75,4 +72,20 @@ Extended Instruction set
 | **COM Ra, Rb**  | Compares values in registers `Ra` and `Rb` and outputs a result to LED.         | `1 0 1 Ra Ra Ra Rb Rb Rb 0 0 0 0`  |
 
 ---
+
+## Allocations of Inputs and Outputs on the BASYS3 Board
+
+- **Center Button**: Resets the processor. Hold for 2-3 seconds to reset all registers and the program counter.
+- **LED0-LED3**: Displays the value in Register 7.
+- **Seven-Segment Display**: Outputs the value in Register 7.
+- **LED15**: Overflow flag.
+- **LED14**: Zero flag.
+- **LED07**: Comparator flag.
+
+---
+## Documentation
+
+All simulation diagrams and VHDL codes are available in the following PDF:
+
+[Download NanoProcessor Documentation](NanoProcessor_Report_Group_42.pdf)
 
