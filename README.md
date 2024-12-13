@@ -1,5 +1,5 @@
 ## Task
-[In this Project](project.pdf) , we were tasked with designing a 4-bit processor capable of executing a set of instructions. To achieve this, we utilized and extended previously developed components, including:
+[In this Project](Documentation/project.pdf) , we were tasked with designing a 4-bit processor capable of executing a set of instructions. To achieve this, we utilized and extended previously developed components, including:
 
 - 4-bit Add/Subtract unit  
 - 3-bit Adder  
@@ -11,7 +11,7 @@
 - 7-Segment Display  
 - Slow Clock
   
-![Alt text](High_level_diagram_of_the_nanoprocessor.png)
+![Alt text](Documentation/High_level_diagram_of_the_nanoprocessor.png)
 
 This group project involved distributing workload among team members, designing components, and refining them to ensure functionality. The processor was successfully implemented and tested on the Basys3 board.
 
@@ -87,5 +87,5 @@ Extended Instruction set
 
 All simulation diagrams and VHDL codes are available in the following PDF:
 
-[Download NanoProcessor Documentation](NanoProcessor_Report_Group_42.pdf)
+[Download NanoProcessor Documentation](Documentation/NanoProcessor_Report_Group_42.pdf)
 
