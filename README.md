@@ -1,5 +1,5 @@
 ## Task
-In this Project, we were tasked with designing a 4-bit processor capable of executing a set of instructions. To achieve this, we utilized and extended previously developed components, including:
+[In this Project](project.pdf) , we were tasked with designing a 4-bit processor capable of executing a set of instructions. To achieve this, we utilized and extended previously developed components, including:
 
 - 4-bit Add/Subtract unit  
 - 3-bit Adder  
