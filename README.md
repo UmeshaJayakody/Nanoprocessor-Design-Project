@@ -88,6 +88,6 @@ Extended Instruction set
 All simulation diagrams and VHDL codes are available in the following PDF:
 
 - [Download NanoProcessor Documentation](Documentation/NanoProcessor_Report_Group_42.pdf)
-- [Download all the files of the project](Vivado_file.zip)
+- [Download all the files of the project](Vivado_files.zip)
 
 
