@@ -1,0 +1,36 @@
+• Center Button --> for Reset operation 
+	▪ We reduced the clock speed of the internal clock of board from 100MHz to 1Hz. Therefore, hold 
+	   Reset for at least 2 to 3 seconds to reset the registers and program counter. 
+
+• LED0-LED3 --> Display register 7 value 
+
+• Seven segment Display 1 --> Display register 7 value
+
+• LED15 --> Overflow Flag
+
+• LED14 --> Zero Flag
+
+• LED07 -->Equal_Comparater Flag (Additional Features added Design)
+
+
+
+## Default instruction set is to add numbers between 1 and 3.
+
+  --operations to add 1 to 3
+                                "0101110000001", --  move value 1 to seventh register 
+                                "0100010000010", --  move value 2 to 1 st register 
+                                "0100100000011", --  move value 3 to 2 nd register 
+                                "0001110010000", --  add reg 1 and reg 7 and store value to reg 7
+                                "0001110100000", --  add reg 2 and reg 7 and store value to reg 7
+                                "0101110000000", --  jump 0th line of the program rom if 0 th register value = 0000 
+
+## so first seven segment and LED 0 to 3 displays number 1. Then, number 3(1+2) . then, number 6(3+3). repeat the same process.
+
+
+
+## We have commented other instruction sets in "program rom" to check all commands in both basic and extended versions.
+   (can be checked by uncommenting the specific instruction set).
+
+
+
+## We have generated bitstream by setting count of the slow clock to 100000000 and after that set the count = 5 for simulation purposes.
