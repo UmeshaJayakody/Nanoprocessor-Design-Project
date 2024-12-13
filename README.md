@@ -11,7 +11,7 @@ In this Project, we were tasked with designing a 4-bit processor capable of exec
 - 7-Segment Display  
 - Slow Clock
   
-![Alt text](Images/image1.png)
+![Alt text](High_level_diagram_of_the_nanoprocessor.png)
 
 This group project involved distributing workload among team members, designing components, and refining them to ensure functionality. The processor was successfully implemented and tested on the Basys3 board.
 
